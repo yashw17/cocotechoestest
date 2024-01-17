@@ -1,0 +1,11 @@
+from datetime import datetime, timedelta
+import random
+
+product_types = ["Phones", "Laptops", "Cosmetics", "Home Decor", "TVs", "Clothing", "Appliances", "Books", "Fitness Equipment", "Gaming Consoles"]
+products = [
+    {"productName": "Product1", "productType": random.choice(product_types), "price": random.uniform(10, 500)},
+    {"productName": "Product2", "productType": random.choice(product_types), "price": random.uniform(20, 1000)},
+    {"productName": "Product3", "productType": random.choice(product_types), "price": random.uniform(5, 300)},
+]
+
+users = ["User1", "User2", "User3", "User4", "User5"]
